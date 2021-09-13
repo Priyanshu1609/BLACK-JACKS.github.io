@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACK-JACKS</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h2>BLACK-JACKS</h2>
+        <h3><span id= "result">Lets play !</span></h3> 
+
+        <div class="flex-1">
+            <div id="your-box" >
+                <h2>You: <span id= "your-result" >0</span></h2>
+            </div>
+            <div id="dealer-box" >
+                <h2>Dealer: <span id= "dealer-result" >0</span></h2>
+            </div>
+        </div>
+        <div class="flex-2">
+            <div>
+                <button class= "btn primary" id="hit-btn">Hit</button>
+                <button class="btn warning" id="stand-btn">Stand</button>
+                <button class="btn danger"id="deal-btn">Deal</button>
+            </div>
+        </div>
+        <div class="flex-3">
+            <table >
+                <tr>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Draws</th>
+                </tr>
+                <tr>
+                    <td><span id="wins">0</span></td>
+                    <td><span id="losses">0</span></td>
+                    <td><span id="draws">0</span></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>
